@@ -91,6 +91,10 @@ body{
     color: rgb(62, 255, 200)
   }
 
+  .text_color h3{
+    color: white;
+  }
+
   .text_color p{
     color: white;
   }
