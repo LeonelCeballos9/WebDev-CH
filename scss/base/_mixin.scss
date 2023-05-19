@@ -1,0 +1,9 @@
+@mixin card-style {
+    border: 2px solid $color-primary;
+    background-color: $color-secondary;
+    padding: 10pt;
+  }
+  
+  @mixin text-color($color) {
+    color: $color;
+  }

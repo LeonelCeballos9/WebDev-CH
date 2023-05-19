@@ -1,0 +1,245 @@
+@import './base/mixin';
+@import './base/var';
+
+body {
+    background-color: $color-secondary;
+    font-family: $font-family;
+  
+    img {
+      border: radius 33px;
+    }
+  }
+
+  nav {
+    font-family: $font-family;
+    height: auto;
+    background-color: $color-secondary;
+  
+    .customcolor {
+      color: $color-primary;
+      border-color: $color-primary;
+    }
+  
+    .custom-btn {
+      color: $color-secondary;
+      font-weight: 700;
+      background-color: $color-primary;
+      border-color: $color-primary;
+    }
+  }
+  
+  main {
+    font-family: $font-family;
+    background-color: $color-secondary;
+  
+    div {
+      div {
+        div {
+          h2 {
+            color: $color-white;
+            font-size: medium;
+          }
+  
+          h1 {
+            color: $color-primary;
+            font-size: xx-large;
+          }
+        }
+      }
+    }
+  
+    .left-content {
+      text-align: left;
+    }
+  
+    .right-content {
+      height: 100%;
+      display: flex;
+      align-items: center;
+  
+      img {
+        width: 100%;
+        object-fit: cover;
+      }
+    }
+  
+    .editable-title {
+      outline: none;
+      color: $color-white;
+      background-color: $color-secondary;
+      padding: 5%;
+    }
+  
+    .card {
+      @include card-style;
+  
+      i {
+        font-size: 32px;
+        margin-bottom: 24px;
+      }
+  
+      &-title {
+        color: $color-primary;
+      }
+  
+      &-text {
+        color: $color-white;
+      }
+    }
+  }
+  
+  .text_color {
+    h2 {
+      @include text-color($color-primary);
+    }
+  
+    h3,
+    p {
+      color: $color-white;
+    }
+  }
+  
+  .text-container {
+    h2,
+    p {
+      color: $color-white;
+    }
+  }
+  
+  .img-container {
+    height: 100%;
+  
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+  
+  .content-container {
+    padding: 20px;
+  }
+  
+  .titulo_schome {
+    color: $color-white;
+    font-size: 144px;
+    font-weight: bolder;
+  }
+  
+  .subtitulo_schome {
+    color: $color-white;
+    font-size: 36px;
+    font-weight: bolder;
+  }
+  
+  .parrafo_schome {
+    color: $color-white;
+    font-size: 24px;
+  }
+  
+  .btn_schome {
+    color: $color-secondary;
+    background-color: $color-primary;
+    border-color: $color-primary;
+    font-size: 24px;
+    font-weight: bolder;
+  }
+  
+  .vector-container {
+    position: relative;
+    width: 100%;
+    height: 500px;
+  
+    img {
+      position: relative;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
+  
+    .content-container {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+  
+      h2 {
+        font-size: 3rem;
+        font-weight: bold;
+        color: $color-secondary;
+      }
+  
+      h3 {
+        font-size: 1.5rem;
+        color: $color-secondary;
+      }
+  
+      button {
+        margin-top: 2rem;
+        color: $color-primary;
+        background-color: $color-secondary;
+      }
+    }
+  }
+  
+  label {
+    color: $color-primary;
+    font-weight: 700;
+  }
+  
+  .forms {
+    color: $color-primary;
+  }
+  
+  .index__footer {
+    color: $color-white;
+    background-color: $color-secondary;
+    font-size: larger;
+    font-weight: 600;
+  
+    div {
+      div {
+        div {
+          ul {
+            li {
+              a {
+                text-decoration: none;
+                color: $color-primary;
+              }
+  
+              list-style: none;
+            }
+          }
+        }
+      }
+    }
+  }
+  
+  .turquoise__btn {
+    background-color: $color-primary;
+  }
+  
+  .card-bg {
+    background-color: $color-secondary;
+    border-color: $color-primary;
+    color: $color-white;
+    padding-top: 10pt;
+    padding-bottom: 10pt;
+  }
+  
+  .card-bg div h5 {
+   color: $color-primary;
+   padding-top: 10pt;
+  }
+
+  .tittle-top{
+    color: $color-white;
+    padding-bottom: nth($padding-botom,3);
+    padding-top: nth($padding-top,1);
+  }
+  
+  section div div div div button{
+    background-color: $color-primary;
+  }
